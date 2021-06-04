@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+  
+  .form {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form .field-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .form .field-block input {
+    height: 50px;
+  }
+  
+  .form .field-block textarea, 
+  .form .field-block input {
+    font-size: 18px;  
+    width: 100%;
+    padding: 16px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+  .form .field-block + .field-block {
+    margin-top: 16px;
+ }
+ .form .field-block label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form button {
+    margin-top: 24px;
+    align-self:flex-end ;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: dodgerblue;
+    color: #fff;
+    transition: background 0.2s;
+  }
+  
+  
+  

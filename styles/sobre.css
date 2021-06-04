@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+
+    
+}
+  
+.cards .card {
+    background: dodgerblue;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 16px;
+    margin-bottom: 32px;
+    height: 250px;
+}
+.cards strong{
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+  
+.cards .card strong {
+    margin-bottom: 16px;
+    font-size: 48px;
+}
